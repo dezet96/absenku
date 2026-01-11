@@ -1,5 +1,5 @@
 [
-    phases.setup
+phases.setup
 ]
 nixPkgs = [
   "php82",
@@ -8,13 +8,13 @@ nixPkgs = [
 ]
 
 [
-    phases.build
+phases.build
 ]
 cmds = [
   "echo Build phase"
 ]
 
 [
-    start
+start
 ]
 cmd = "php -S 0.0.0.0:$PORT -t public"
