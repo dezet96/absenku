@@ -1,0 +1,6 @@
+[build]
+builder = "railpack/php"
+
+[build.environment]
+PHP_VERSION = "8.2"
+PHP_EXTENSIONS = "gd,zip"
